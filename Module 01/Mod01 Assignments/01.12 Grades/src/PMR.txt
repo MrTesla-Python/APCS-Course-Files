@@ -1,0 +1,15 @@
+PROJECT TITLE: 01.09 Primitive Data Type / CalculationsV6.java
+PURPOSE OF PROJECT: The Grades V2 class takes multiple different grades, and then prints the current one, how many
+total points you now have and your average grade.
+arithmetic functions
+VERSION or DATE: 07/19/23
+AUTHORS: Tristan Darnell
+******************************************************* P M R **********************************************************
+<+s>: It was very simple as it was basically just repeating the same block of code over and over again.
+
+<-s>: I wish we could have used an array to store all the values and then just looped over it to prevent
+      redundancy
+
+************************************************************************************************************************
+In the future: I will be a lot more thankful that there are things like for loops that I can used
+rather than typing the same code out over and over again.
