@@ -1,0 +1,12 @@
+PROJECT TITLE: 01.09 Primitive Data Type / CalculationsV6.java
+PURPOSE OF PROJECT: The calculations class uses primitive data types: doubles, and ints, to perform basic 
+arithmetic functions
+VERSION or DATE: 07/19/23
+AUTHORS: Tristan Darnell
+******************************************************* P M R **********************************************************
+<+s>: It was very easy to do, as all you had to do was declare variables and then print them in the specified manner.
+
+<-s>: I found it to be very tedious and a little boring just switching out variable names.
+
+************************************************************************************************************************
+In the future: I will try to have fun while doing even tedious things.

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Module 01/Mod01 Lessons/01.05 Stylish Java/01.05 Stylish Java.iml" filepath="$PROJECT_DIR$/Module 01/Mod01 Lessons/01.05 Stylish Java/01.05 Stylish Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module 01/Mod01 Lessons/01.07 Printing Arithmetic Expressions/01.07 Printing Arithmetic Expressions.iml" filepath="$PROJECT_DIR$/Module 01/Mod01 Lessons/01.07 Printing Arithmetic Expressions/01.07 Printing Arithmetic Expressions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module 01/Mod01 Lessons/01.08 Arithmetic Expressions/01.08 Arithmetic Expressions.iml" filepath="$PROJECT_DIR$/Module 01/Mod01 Lessons/01.08 Arithmetic Expressions/01.08 Arithmetic Expressions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/APCS Course Files.iml" filepath="$PROJECT_DIR$/.idea/APCS Course Files.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module 01/Mod01 Lessons/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/Module 01/Mod01 Lessons/HelloWorld/HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module 01/Mod01 Assignments/Mod01 Assignments.iml" filepath="$PROJECT_DIR$/Module 01/Mod01 Assignments/Mod01 Assignments.iml" />
+    </modules>
+  </component>
+</project>

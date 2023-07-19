@@ -1,4 +1,11 @@
-public class StudentInfoCard {
+/**
+ * The StudentInfoCardV2 class prints information about me
+ * in a neat and organized manner
+ *  
+ * @ Tristan Darnell
+ * @ 19 July 2023
+ */
+public class StudentInfoCardV2 {
     public static void main(String[] args) {
         System.out.println("******************************************************************************");
         System.out.println("*                                                                            *");
