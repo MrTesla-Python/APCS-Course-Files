@@ -8,7 +8,7 @@
  * @author Tristan Darnell
  * @version 07/19/23
  */
-public class CurrencyV1
+public class CurrencyV2
 {
     public static void main(String [ ] args)
     {
@@ -79,8 +79,8 @@ public class CurrencyV1
 		//Calculations for Souvenir #1
 		int costItem1 = 12;  						//cost per item of first souvenir
 		int budget1 = 100;   						//budget for first item
-		int totalItems1 = budget1/costItem1; 		//how many items can be purchased
-		int fundsRemaining1 = budget1 - (totalItems1 * costItem1);  //how much of the budget is left
+		int totalItems1 = budget1 / costItem1; 		//how many items can be purchased
+		int fundsRemaining1 = budget1 % costItem1;  //how much of the budget is left
 
 		System.out.println("Item 1");
 		System.out.println("   Cost per item: $" + costItem1 );
@@ -92,8 +92,8 @@ public class CurrencyV1
 		//Calculations for Souvenir #2
 		double costItem2 = 29.99;  						//cost per item of second souvenir
 		int budget2 = 500;   							//budget for second item
-		int totalItems2 = (int) (budget2/costItem2); 	//how many items can be purchased
-		double fundsRemaining2 = budget2 - (totalItems2 * costItem2);  	//how much of the budget is left
+		int totalItems2 = (int) (budget2 / costItem2); ; 	//how many items can be purchased
+		double fundsRemaining2 = budget2 % costItem2;  	//how much of the budget is left
 
 		System.out.println("Item 2");
 		System.out.println("   Cost per item: $" + costItem2 );
