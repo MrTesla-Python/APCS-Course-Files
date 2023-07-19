@@ -1,0 +1,15 @@
+PROJECT TITLE: 01.13 Challenge Program / CurrencyV1.java
+PURPOSE OF PROJECT: The CurrencyV1 program takes various amounnts of money spent in other countries
+and converts it to US dollars and subtracts from how much US dollars a person had. The other half
+of the program figures out how many of one item a person can buy with there specified budget.
+arithmetic functions
+VERSION or DATE: 07/19/23
+AUTHORS: Tristan Darnell
+******************************************************* P M R **********************************************************
+<+s>: This program was pretty easy to implement just took a lot of time.
+
+<-s>: I had a little trouble formatting all the print statements to make 
+      the code look neat but other than that it was easy.
+************************************************************************************************************************
+In the future: Over time I will just naturally get better and better at 
+formatting my output to make it look neat for the user.

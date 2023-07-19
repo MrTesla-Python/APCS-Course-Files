@@ -1,4 +1,4 @@
-PROJECT TITLE: 01.09 Primitive Data Type / CalculationsV6.java
+PROJECT TITLE: 01.12 Grades / GradesV2.java
 PURPOSE OF PROJECT: The Grades V2 class takes multiple different grades, and then prints the current one, how many
 total points you now have and your average grade.
 arithmetic functions
