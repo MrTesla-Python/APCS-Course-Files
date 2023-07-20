@@ -1,0 +1,12 @@
+PROJECT TITLE: 02.03 Math Class Methods / PyTheorem.java
+PURPOSE OF PROJECT: The PyTheorem class uses various Math class methods to calculate the hypotenuse
+ of a triangle using randomly generated sides a and b.
+VERSION or DATE: 07/220/23
+AUTHORS: Tristan Darnell
+******************************************************* P M R **********************************************************
+<+s>: The methods use in this program were easy to implement.
+
+<-s>: The only challenging thing was getting the Math.random to generated
+      in the correct range.
+************************************************************************************************************************
+Implement more test functions to make sure Math.random is generating correct values
