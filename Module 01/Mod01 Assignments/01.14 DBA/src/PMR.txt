@@ -1,0 +1,12 @@
+PROJECT TITLE: 01.14 DBA / Calc.java
+PURPOSE OF PROJECT: The Calc class takes a variable and then performs some basic arithmetic 
+operations on it.
+arithmetic functions
+VERSION or DATE: 07/19/23
+AUTHORS: Tristan Darnell
+******************************************************* P M R **********************************************************
+<+s>: This program was easy to implement.
+
+<-s>: Nothing really it was pretty simple compared to the challenge assessment.
+************************************************************************************************************************
+In the future: Just getting faster at typing basic syntax and stuff.
