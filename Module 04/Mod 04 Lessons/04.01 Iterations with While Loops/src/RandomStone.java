@@ -5,7 +5,6 @@ public class RandomStone {
         while (n < 20)
         {
             int randomInt = (int) (Math.random()*10+1);
-            System.out.println(randomInt);
 
             if (randomInt <= 4)
             {
@@ -16,7 +15,6 @@ public class RandomStone {
             {
                 System.out.println("Yellow Stone");
             }
-            n++;
         }
     }
 }
