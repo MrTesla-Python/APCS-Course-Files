@@ -1,0 +1,11 @@
+PROJECT TITLE: 03.05 Body Mass Index / BMI.java
+PURPOSE OF PROJECT: The BMI class takes in the name, weight, and height of a person
+then converts the weight and height and prints their BMI and then what that corresponds to
+VERSION or DATE: 07/24/23
+AUTHORS: Tristan Darnell
+******************************************************* P M R **********************************************************
+<+s>: This program was easy, escept for the rounding.
+
+<-s>: The rounding was a little hard as I had to change the Math.round to round to the nearest tenth
+************************************************************************************************************************
+In the future: Get more used to how to round.
