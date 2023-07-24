@@ -1,0 +1,14 @@
+PROJECT TITLE: 02.10 Online Purchase / BuyCandy.java
+PURPOSE OF PROJECT: The BuyCandy class takes in lines of input that 
+corresponds to what candy a person bought, and then prints
+a receipt with this information
+VERSION or DATE: 07/23/23
+AUTHORS: Tristan Darnell
+******************************************************* P M R **********************************************************
+<+s>: This program was fairly easy just time-consuming.
+
+<-s>: The hardest part is just remembering all the various methods
+and how to use them.
+************************************************************************************************************************
+In the future: Get more and more used to using different methods so they become
+second nature.

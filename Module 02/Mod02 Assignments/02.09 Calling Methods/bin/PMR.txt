@@ -1,0 +1,11 @@
+PROJECT TITLE: 02.09 Calling Methods in Java / MakingMethodCalls.java
+PURPOSE OF PROJECT: The MakingMethodCalls class calls various methods
+to output simple math.
+VERSION or DATE: 07/23/23
+AUTHORS: Tristan Darnell
+******************************************************* P M R **********************************************************
+<+s>: This program was very straightforward.
+
+<-s>: Very easy as it was just calling predefined methods.
+************************************************************************************************************************
+In the future: Learning to make and call more complex methods.
