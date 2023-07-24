@@ -1,0 +1,12 @@
+PROJECT TITLE: 03.08 DBA / Carnival.java
+PURPOSE OF PROJECT: The Carnival class takes in input about a person, and based off 
+this information calculates a ticket price and then prints a ticket
+VERSION or DATE: 07/24/23
+AUTHORS: Tristan Darnell
+******************************************************* P M R **********************************************************
+<+s>: This program was easy.
+
+<-s>: It was challenging figuring out the user ID getting the first and last initial,
+      but other than that it was easy.
+************************************************************************************************************************
+In the future: Getting better at manipulating the various string methods.
