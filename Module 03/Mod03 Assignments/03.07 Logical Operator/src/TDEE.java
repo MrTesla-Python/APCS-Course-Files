@@ -120,5 +120,6 @@ public class TDEE {
         double TDEE = activityFactor * doubleBMR;
 
         System.out.println("TDEE: " + TDEE);
+        in.close();
     }
 }

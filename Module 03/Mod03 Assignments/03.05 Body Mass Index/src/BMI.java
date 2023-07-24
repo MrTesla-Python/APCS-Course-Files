@@ -55,6 +55,7 @@ public class BMI {
         {
             System.out.println("Category: Underweight");
         }
+        in.close();
     }
 }
  

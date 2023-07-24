@@ -37,5 +37,6 @@ public class AdmissionFeeV1
         System.out.println();
         System.out.println("Discount: " + isChild);
         System.out.println("Please pay: " + admissionFee);
+        in.close();
        }//end of main method
     }//end of class
