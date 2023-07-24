@@ -8,7 +8,7 @@
  * 07/23/23
  */
 import java.util.Scanner;
-public class BuyCandy {
+public class BuyCandyV2 {
     public static void main(String[] args)  {
         Scanner in = new Scanner(System.in);
 
@@ -58,7 +58,7 @@ public class BuyCandy {
         System.out.println(date);
 
         // Print order number
-        System.out.println("Order number: 097");
+        System.out.println("Order number: " + candy.substring(1, 3) + debitCardNumber.substring(6, 9));
 
         System.out.println();
 
