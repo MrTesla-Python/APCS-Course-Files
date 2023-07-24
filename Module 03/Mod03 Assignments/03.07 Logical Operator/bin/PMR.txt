@@ -1,0 +1,11 @@
+PROJECT TITLE: 03.05 TDEE / TDEE.java
+PURPOSE OF PROJECT: The TDEE class takes information about the user,
+and uses this information to calculate and display theire TDEE.
+VERSION or DATE: 07/24/23
+AUTHORS: Tristan Darnell
+******************************************************* P M R **********************************************************
+<+s>: This program was easy.
+
+<-s>: It was a little challenging creating all the different loops in each other.
+************************************************************************************************************************
+In the future: Getting quicker at knowing how to write multiple if and else if statements
