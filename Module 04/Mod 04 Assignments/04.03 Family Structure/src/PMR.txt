@@ -1,0 +1,12 @@
+PROJECT TITLE: 04.03 Family Structure / Family.java
+PURPOSE OF PROJECT: The Family clas takes input from a text file
+that has different values showing what types of kids families have
+and then averages the different types.
+VERSION or DATE: 07/24/23
+AUTHORS: Tristan Darnell
+******************************************************* P M R **********************************************************
+<+s>: This program was a little challenging as I forgot about converting to percent
+
+<-s>: I forgot to import the new packages to read files and handle exceptions which took me a little
+************************************************************************************************************************
+In the future: I will just get more and more familiar with files just like I did with input
