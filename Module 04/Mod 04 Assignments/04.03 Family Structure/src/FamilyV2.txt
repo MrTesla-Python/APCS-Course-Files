@@ -10,7 +10,7 @@
 import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
-public class Family {
+public class FamilyV2 {
     public static void main(String[] args) throws IOException {
         File file = new File("src/familyMembers.txt");
         Scanner in = new Scanner(file);
@@ -18,24 +18,32 @@ public class Family {
         int twoBoys = 0;
         int oneOne = 0;
         int total = 0;
+        String newKids = "";
 
-        while(in.hasNext())
+        while(in.hasNextLine())
         {
-            String newKids = in.nextLine();
+            newKids = in.nextLine();
             if (newKids.equalsIgnoreCase("BB"))
             {
                 twoBoys++;
+                total++;
             }
             else if(newKids.equalsIgnoreCase("GG"))
             {
                 twoGirls++;
+                total++;
+            }
+            else if (newKids.equalsIgnoreCase("BG") || newKids.equalsIgnoreCase("GB"))
+            {
+                oneOne++;
+                total++;
             }
             else
             {
-                oneOne++;
+                continue;
             }
-            total++;
         }
+        System.out.println(newKids);
         System.out.println("Composition statistics for families with two children.");
         System.out.println();
         System.out.println("Total number of families: " + total);
@@ -54,9 +62,9 @@ public class Family {
         percentBoth *= 100.0;
         percentBoth = (Math.round(percentBoth * 100) / 100.0);
         
-        System.out.println("\t  2 boys: " + twoBoys + " represents " + percentAllBoys);
-        System.out.println("\t 2 girls: " + twoGirls + " represents " + percentAllGirls);
-        System.out.println("1 boy and 1 girl: " + oneOne + " represents " + percentBoth);
+        System.out.println("\t   2 boys: " + twoBoys + " represents " + percentAllBoys + "%");
+        System.out.println("\t  2 girls: " + twoGirls + " represents " + percentAllGirls + "%");
+        System.out.println("1 boy and 1 girl: " + oneOne + " represents " + percentBoth + "%");
 
         in.close();
     }

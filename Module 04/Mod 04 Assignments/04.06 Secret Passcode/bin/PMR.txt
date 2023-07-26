@@ -1,0 +1,13 @@
+PROJECT TITLE: 04.06 Secret Passcode / SecretPasscode.java
+PURPOSE OF PROJECT: The SecretPasscode class takes user input
+for password length that must be at least six and then randomly generates
+a password of letters and numbers.
+VERSION or DATE: 07/25/23
+AUTHORS: Tristan Darnell
+******************************************************* P M R **********************************************************
+<+s>: This program was challenging, but also because it was challenging that made it fun.
+
+<-s>: Rembering to close the filewriter after using so it saves the file and you can print the passwords 
+      was challenging, also figuring out how to only get letters and numbers took a little, but it was fun.
+************************************************************************************************************************
+In the future: Getting more used to reading and writing to files, and closing them when done.

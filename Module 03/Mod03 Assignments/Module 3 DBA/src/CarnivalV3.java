@@ -7,7 +7,7 @@
  * 07/24/23
  */
 import java.util.Scanner;
-public class Carnival {
+public class CarnivalV3 {
 
     public static void printTicket(String name, String id, double price)
     {
@@ -37,26 +37,25 @@ public class Carnival {
         double price;
 
         int intAge = Integer.parseInt(age);
-        if (intAge < 3)
-        {
-            price = 2;
-        }
-        else if (intAge >= 3 && intAge <= 5)
-        {
-            price = 9;
-        }
-        else if (intAge >= 6 && intAge <= 18)
-        {
-            price = 11;
-        }
-        else
+        if (intAge > 18)
         {
             price = 12;
         }
-        if (veteran.equalsIgnoreCase("Y") || firstResponder.equalsIgnoreCase("Y"));
+        else if (intAge >= 6)
         {
-            price /= 2;
+            price = 11;
         }
+        else if (intAge >= 3)
+        {
+            price = 9;
+        }
+        else
+        {
+            price = 2;
+        }
+        if (veteran.equalsIgnoreCase("Y")) price /= 2;
+        
+        else if (firstResponder.equalsIgnoreCase("Y")) price /= 2;
 
         int randomNum = (int) (Math.random() * 1000 + 1);
 
