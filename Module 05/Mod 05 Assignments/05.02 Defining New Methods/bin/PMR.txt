@@ -1,0 +1,12 @@
+PROJECT TITLE: 05.02 Defining New Methods / PlanetGravity.java
+PURPOSE OF PROJECT: The PlanetGravity class, takes data about a planet, and then has three Methods
+one that calculates the gravity and two that help print and format all the information neatly.
+VERSION or DATE: 07/27/23
+AUTHORS: Tristan Darnell
+******************************************************* P M R **********************************************************
+<+s>: Working with methods is fun, as once you write the code you can keep reusing it.
+
+<-s>: It's a little tedious to write a method that you are only ever gonna use once, but
+I know eventually I will be writing ones that get reused.
+************************************************************************************************************************
+In the future: Getting better at working with methods.

@@ -1,0 +1,11 @@
+PROJECT TITLE: 04.08 Challenge Program / MathTrick.java
+PURPOSE OF PROJECT: The MathTrick class generates a random 3 digit number and then does various operations on 
+it to conver it to a string a print out the output.
+VERSION or DATE: 07/26/23
+AUTHORS: Tristan Darnell
+******************************************************* P M R **********************************************************
+<+s>: This program was challenging, but the result of the program was very interesting.
+
+<-s>: Just figuring out how to do each method took a little bit of thinking.
+************************************************************************************************************************
+In the future:  Getting faster at doing basic things like reversing.
