@@ -9,8 +9,8 @@
  */
 public class CarV3 {
 
-    double mySpeed;
-    boolean myEngineOn;
+    private double mySpeed;
+    private boolean myEngineOn;
     
 
     // default constructor
