@@ -1,7 +1,7 @@
 PROJECT TITLE: 05.05 Constructing Multiple Objects / CarV8.java and CarTestorV8.java
-PURPOSE OF PROJECT: The CarV3 class sets up a Car object that has basic methods, inclued loaded constructors,
-and overloaded methods, to help make the program more functional, these
-do things like turn the car on, accelerate and brake. The CarTestorV3 class
+PURPOSE OF PROJECT: The CarV3 class sets up a Car object that has basic methods, including loaded constructors,
+and overloaded methods, to help make the program more functional. These
+do things like turn the car on, accelerate, and brake. The CarTestorV3 class
 simply creates a CarV3 object and then performs its various methods, and outputs it 
 in a neat way.
 VERSION or DATE: 07/31/23
@@ -9,7 +9,7 @@ AUTHORS: Tristan Darnell
 ******************************************************* P M R **********************************************************
 <+s>: This was very fun, as it was fun designing even more methods for my Car object.
 
-<-s>: It's very time-consuming, as I had to design a lot of methods and make sure the functionality worked
-and then in the testor I had to make sure to update all the variable after calling a method.
+<-s>: It was very time-consuming, as I had to design a lot of methods and make sure the functionality worked.
+and then in the tester, I had to make sure to update all the variables after calling a method.
 ************************************************************************************************************************
-In the future: Designing even more advanced objects that do even cooler things.
+In the future: designing even more advanced objects that do even cooler things.
