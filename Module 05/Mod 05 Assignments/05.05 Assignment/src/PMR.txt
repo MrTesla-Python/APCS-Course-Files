@@ -1,0 +1,15 @@
+PROJECT TITLE: 05.05 Constructors / CarV3.java and CVarTestorV3.java
+PURPOSE OF PROJECT: The CarV3 class sets up a Car object that has basic methods
+that do things like turn the car on, accelerate, and brake. The CarTestorV3 class
+simply creates a CarV3 object and then performs its various methods, and outputs it 
+neatly.
+VERSION or DATE: 07/30/23
+AUTHORS: Tristan Darnell
+******************************************************* P M R **********************************************************
+<+s>: I enjoy making an object, as it is fun being able to creatively design and implement
+all these methods.
+
+<-s>: It's very time-consuming, and took me a little bit to figure out all the various 
+     methods I would need for the program to work.
+************************************************************************************************************************
+In the future: getting faster at building objects, and building more advanced objects.
