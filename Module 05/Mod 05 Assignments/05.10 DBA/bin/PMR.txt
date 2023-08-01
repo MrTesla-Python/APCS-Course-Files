@@ -1,0 +1,13 @@
+PROJECT TITLE: 05.10 DBA / Pets.java and PetsTester.java
+PURPOSE OF PROJECT: The Pets class creates a basic pet object with a name a breed and an age
+the tester class then utilizes those methods to take user input of information about a pet
+create a pet object and print it's information to the screen.
+VERSION or DATE: 07/31/23
+AUTHORS: Tristan Darnell
+******************************************************* P M R **********************************************************
+<+s>: This program was very simple compared to some of the other classes I have built in this course.
+
+<-s>: I found it a little boring and simple compared to the other classes I had built, as they had 
+way more methods and a degree of complexity that this program was lacking.
+************************************************************************************************************************
+In the future: Creating more advanced and cooler classes.
