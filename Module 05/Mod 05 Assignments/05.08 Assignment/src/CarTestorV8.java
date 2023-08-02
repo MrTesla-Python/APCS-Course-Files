@@ -88,6 +88,7 @@ public class CarTestorV8
         carSpeed2 = car2.getSpeed();
         fuel2 = car2.getFuelLevel();
         printCarStatus(make2, carOn2, carSpeed2, mileage2, fuel2);
+
     }
     
 }
