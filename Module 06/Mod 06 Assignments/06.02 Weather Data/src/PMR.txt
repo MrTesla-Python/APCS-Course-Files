@@ -1,0 +1,12 @@
+PROJECT TITLE: 06.02 Weather Data / CityWeatherV2.java and CityWeatherTesterV2.java
+PURPOSE OF PROJECT: The CityWeatherV2 class sets up a weather object that has various
+weather information about a city and respective getter and setter methods, and some
+conversion methods. The CityWeatherTesterV2 creates a CityWeatherV2 object and
+then prints it in a organized fashion.
+VERSION or DATE: 08/02/23
+AUTHORS: Tristan Darnell
+******************************************************* P M R **********************************************************
+<+s>: This program was pretty simple to develop, as the printf statements weren't overly complicated.
+<-s>: printf statements definitely do require a little thinking to do, but other than that not much.
+************************************************************************************************************************
+In the future: Getting better at printf.
