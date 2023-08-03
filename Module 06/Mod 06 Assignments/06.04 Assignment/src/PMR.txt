@@ -1,0 +1,12 @@
+PROJECT TITLE: 06.04 Assignment / Student.java and StudentTester.java
+PURPOSE OF PROJECT: The Student.java class creates a student object that has various grades
+and then calculates average and difference between the grades, and also has a way 
+to print out the data of a student in a neat way.
+VERSION or DATE: 08/02/23
+AUTHORS: Tristan Darnell
+******************************************************* P M R **********************************************************
+<+s>: This program was easy.
+
+<-s>: The for each loops are a little weird so just getting better at using them.
+************************************************************************************************************************
+In the future: Just getting more used to all these new programming convepts.
