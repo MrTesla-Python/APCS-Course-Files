@@ -45,6 +45,12 @@ public class StringExplorer
 
         //  Add examples below for the following methods:
         //    trim()
+        String test = "     Hello      ";
+        String bob = "Test";
+        String bob2 = "Best";
+        System.out.println(test);
+        System.out.println(test.trim());
+        System.out.println(bob2.compareTo(bob));
         //    length()
         //    indexOf with one and two parameters
         //    substring() with one and two parameters
