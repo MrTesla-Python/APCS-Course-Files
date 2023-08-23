@@ -4,8 +4,8 @@
 
  * Code adapted from work by Laurie White for the College Board.
  *
- * @author (enter your name)
- * @version (enter today's date)
+ * @Tristan Darnell
+ * @8/22/23
  */
 
 import java.util.Scanner;

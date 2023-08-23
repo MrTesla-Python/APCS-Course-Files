@@ -1,0 +1,14 @@
+PROJECT TITLE: 06.06 DBA / WordTester.java
+PURPOSE OF PROJECT: A program that creates a class with two methods
+one sees if a word is withing an array
+and the other compares numWords and length
+of array and makes sure they are equal
+both return booleans
+VERSION or DATE: 08/22/23
+AUTHORS: Tristan Darnell
+******************************************************* P M R **********************************************************
+<+s>: The methods easy to implement
+
+<-s>: Nothing really methods super easy to implement
+************************************************************************************************************************
+In the future: Create more advance methods

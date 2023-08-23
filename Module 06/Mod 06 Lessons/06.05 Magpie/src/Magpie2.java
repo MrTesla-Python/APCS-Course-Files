@@ -7,8 +7,8 @@
  *
  * Code adapted from work by Laurie White for the College Board.
  *
- * @author (enter your name)
- * @version (enter today's date)
+ * @Tristan Darnell
+ * @8/22/23
  */
 public class Magpie2
 {
@@ -31,25 +31,25 @@ public class Magpie2
     public String getResponse(String statement)
     {
         String response = "";
-        if (statement.indexOf("no") >= 0)
+        if (findKeyword(statement, "no", 0) >= 0)
         {
             response = "Why so negative?";
         }
-        else if (statement.indexOf("mother") >= 0
-                || statement.indexOf("father") >= 0
-                || statement.indexOf("sister") >= 0
-                || statement.indexOf("brother") >= 0)
+        else if (findKeyword(statement, "mother", 0) >= 0
+                || findKeyword(statement, "father", 0) >= 0
+                || findKeyword(statement, "sister", 0) >= 0
+                || findKeyword(statement, "brother", 0) >= 0)
         {
             response = "Tell me more about your family.";
         }
 
-        else if (statement.indexOf("dog") >= 0
-                || statement.indexOf("cat") >= 0)
+        else if (findKeyword(statement, "dog", 0) >= 0
+                || findKeyword(statement, "cat", 0) >= 0)
         {
             response = ("Tell me more about your pets.");
         }
         
-        else if (statement.indexOf("Mrs. Bromley") >= 0)
+        else if (findKeyword(statement, "Mrs. Bromley", 0) >= 0)
         {
             response = ("She sounds like a good teacher");
         }
@@ -57,6 +57,22 @@ public class Magpie2
         else if (statement.trim().length() == 0)
         {
             response = ("Say something please");
+        }
+
+        else if (findKeyword(statement, "friend", 0) >=0)
+        {
+            response = ("What are your friends names?");
+        }
+
+        else if (findKeyword(statement, "Overwatch", 0) >= 0
+        || findKeyword(statement, "Valorant", 0) >= 0)
+        {
+            response = ("Tell me more about these video games");
+        }
+
+        else if (findKeyword(statement, "homework", 0) >= 0)
+        {
+            response = ("Homework is not fun");
         }
 
         else
@@ -72,7 +88,7 @@ public class Magpie2
      */
     private String getRandomResponse()
     {
-        final int NUMBER_OF_RESPONSES = 4;
+        final int NUMBER_OF_RESPONSES = 6;
         double r = Math.random();
         int whichResponse = (int)(r * NUMBER_OF_RESPONSES);
         String response = "";
@@ -92,6 +108,16 @@ public class Magpie2
         else if (whichResponse == 3)
         {
             response = "You don't say.";
+        }
+
+        else if (whichResponse == 4)
+        {
+            response = "Wow that's cool.";
+        }
+
+        else if (whichResponse == 5)
+        {
+            response = "That's good";
         }
 
         return response;
