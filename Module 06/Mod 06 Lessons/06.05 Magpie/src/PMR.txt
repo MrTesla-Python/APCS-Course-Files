@@ -1,12 +1,12 @@
-PROJECT TITLE: 06.05 Magpie / Magpie2.java and MagpieRunner2.java
+PROJECT TITLE: 06.05 Magpie / Magpie2.java, MagpieRunner2.java, StringExplore.java
 PURPOSE OF PROJECT: A program to carry on conversations with a human user, that searches
-for specific keywords and responds based on these.
+for specific keywords and responds based on these. Also a program to use various string methods
 VERSION or DATE: 08/02/23
 AUTHORS: Tristan Darnell
 ******************************************************* P M R **********************************************************
-<+s>: This program was easy.
+<+s>: These programs were easy.
 
-<-s>: This program was tedious to implement, as it was just a lot of replacing Code
+<-s>: These programs were tedious to implement, as it was just a lot of replacing Code
 with other code.
 ************************************************************************************************************************
 In the future: Just getting faster at programming.

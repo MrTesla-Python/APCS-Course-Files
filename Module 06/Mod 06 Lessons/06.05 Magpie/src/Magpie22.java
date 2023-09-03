@@ -10,7 +10,7 @@
  * @Tristan Darnell
  * @8/22/23
  */
-public class Magpie2
+public class Magpie22
 {
     /**
      * Get a default greeting
