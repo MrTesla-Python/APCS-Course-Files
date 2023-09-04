@@ -1,0 +1,11 @@
+PROJECT TITLE: 07.02 CheeseCake / CheeseCakeV1.java and CheeseCakeTesterV1.java
+PURPOSE OF PROJECT: This creates a CheeseCake class that takes in flavor and 
+quantity and then figures out things like sugar vanilla, and then tests out the CheeseCake 
+class and prints it in a nice format
+VERSION or DATE: 09/03/23
+AUTHORS: Tristan Darnell
+******************************************************* P M R **********************************************************
+<+s>: This program was simple but tedious
+<-s>: Formatting took a lot of trial and error to get it exactly right
+************************************************************************************************************************
+In the future: Getting better at printf.
