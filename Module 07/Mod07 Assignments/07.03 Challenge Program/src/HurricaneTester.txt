@@ -146,37 +146,34 @@ public class HurricaneTester
         double average_pres = total_pres/count;
         double average_speed = total_speed/count;
 
-        PrintWriter outFile = new PrintWriter(new File("src/hurricaneinfo.txt"));
-
         // Print header of data
-        outFile.printf("%35s %d %s %d \n", "Hurricane", x, "-", y);
-        outFile.println();
-        outFile.printf("%6s %13s %12s %17s %20s%n", "Year", "Hurricane", "Category", "Pressure (mb)", "Wind Speed (mph)");
-        outFile.println("========================================================================");
+        System.out.printf("%25s %d %s %d \n", "Hurricane", x, "-", y);
+        System.out.println();
+        System.out.printf("%6s %13s %12s %17s %20s%n", "Year", "Hurricane", "Category", "Pressure (mb)", "Wind Speed (mph)");
+        System.out.println("========================================================================");
 
         // Print data of each hurrican
         for(Hurricane h: hurricaneList)
         {
             if (h.getYear() >= x && h.getYear() <= y)
             {
-                outFile.println(h.toString());
+                System.out.println(h.toString());
             }
         }
         // Print average max min
-        outFile.println("========================================================================");
-        outFile.printf("%15s %16.2f %13.2f %16.2f", "Average:", average_cat, average_pres, average_speed);
-        outFile.println();
-        outFile.printf("%15s %13d %13d %19.2f", "Minimum:", min_cat, min_pres, min_speed);
-        outFile.println();
-        outFile.printf("%15s %13d %13d %19.2f", "Maximum:", max_cat, max_pres, max_speed);
-        outFile.println("\n");
+        System.out.println("========================================================================");
+        System.out.printf("%15s %16.2f %13.2f %16.2f", "Average:", average_cat, average_pres, average_speed);
+        System.out.println();
+        System.out.printf("%15s %13d %13d %19.2f", "Minimum:", min_cat, min_pres, min_speed);
+        System.out.println();
+        System.out.printf("%15s %13d %13d %19.2f", "Maximum:", max_cat, max_pres, max_speed);
+        System.out.println("\n");
 
         // Summary of cats
-        outFile.println("Summary of Categories:");
-        outFile.printf("%9s %2d%n", "Cat 1:", cat1);
-        outFile.printf("%9s %2d%n", "Cat 2:", cat2);
-        outFile.printf("%9s %2d%n", "Cat 3:", cat3);
-        outFile.printf("%9s %2d%n", "Cat 4:", cat4);
-        outFile.printf("%9s %2d%n", "Cat 5:", cat5);
-        outFile.close();
+        System.out.println("Summary of Categories:");
+        System.out.printf("%9s %2d%n", "Cat 1:", cat1);
+        System.out.printf("%9s %2d%n", "Cat 2:", cat2);
+        System.out.printf("%9s %2d%n", "Cat 3:", cat3);
+        System.out.printf("%9s %2d%n", "Cat 4:", cat4);
+        System.out.printf("%9s %2d%n", "Cat 5:", cat5);
 }}

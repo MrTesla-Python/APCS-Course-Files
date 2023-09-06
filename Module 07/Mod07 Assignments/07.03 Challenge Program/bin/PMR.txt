@@ -1,0 +1,10 @@
+PROJECT TITLE: 07.03 Challenge / Hurricane.java, HurricanTester.java
+PURPOSE OF PROJECT: Hurricane Object Class and 
+Prints information about hurricans in a date range
+VERSION or DATE: 09/03/23
+AUTHORS: Tristan Darnell
+******************************************************* P M R **********************************************************
+<+s>: This program was pretty difficult to get all the loops and stuff to work
+<-s>: Formatting took a lot of work
+************************************************************************************************************************
+In the future: Getting better at understanding how to maniuplate loops
