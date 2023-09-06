@@ -88,9 +88,10 @@ public class Hurricane
    }
 
 
-   //public String toString() {
+   public String toString() {
    
-      // complete the toString method using String.format()  
-   //}
+      // complete the toString method using String.format() 
+      return String.format(" %-9s %-16s %-12s %-30d", getYear(), getName(), getCat(), getPressure());
+   }
     
 }

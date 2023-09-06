@@ -59,27 +59,27 @@ public class HurricaneTester
         {   // determine cat and create a hurricane object
             if (windSpeeds[i] * 1.15078 <= 95)
             {
-                hurricane = new Hurricane(years[i], names[i], months[i], 1, pressures[i], windSpeeds[i]);
+                hurricane = new Hurricane(years[i], names[i], months[i], 1, pressures[i], windSpeeds[i] * 1.15078);
             }
 
             else if (windSpeeds[i] * 1.15078 <= 110)
             {
-                hurricane = new Hurricane(years[i], names[i], months[i], 2, pressures[i], windSpeeds[i]);
+                hurricane = new Hurricane(years[i], names[i], months[i], 2, pressures[i], windSpeeds[i] * 1.15078);
             }
 
             else if (windSpeeds[i] * 1.15078 <= 129)
             {
-                hurricane = new Hurricane(years[i], names[i], months[i], 3, pressures[i], windSpeeds[i]);
+                hurricane = new Hurricane(years[i], names[i], months[i], 3, pressures[i], windSpeeds[i] * 1.15078);
             }
 
             else if (windSpeeds[i] * 1.15078 <= 156)
             {
-                hurricane = new Hurricane(years[i], names[i], months[i], 4, pressures[i], windSpeeds[i]);
+                hurricane = new Hurricane(years[i], names[i], months[i], 4, pressures[i], windSpeeds[i] * 1.15078);
             }
 
             else
             {
-                hurricane = new Hurricane(years[i], names[i], months[i], 5, pressures[i], windSpeeds[i]);
+                hurricane = new Hurricane(years[i], names[i], months[i], 5, pressures[i], windSpeeds[i] * 1.15078);
             }
             hurricaneList.add(hurricane);
         }
@@ -114,16 +114,16 @@ public class HurricaneTester
 
         int count = 0;
 
-        for(Hurricane h: hurricaneList) {
+        for(Hurricane h: hurricaneList)
         {
-            if (h.getYear() > x && h.getYear() < y)
+            if (h.getYear() >= x && h.getYear() <= y)
             {
                 if (h.getCat() < min_cat) min_cat = h.getCat();
                 if (h.getCat() > max_cat) max_cat = h.getCat();
                 if (h.getPressure() < min_pres) min_pres = h.getPressure();
                 if (h.getPressure() > max_pres) max_pres = h.getPressure();
                 if (h.getWindspeed() < min_speed) min_speed = h.getWindspeed();
-                if (h.getWindspeed() > min_speed) max_speed = h.getWindspeed();
+                if (h.getWindspeed() > max_speed) max_speed = h.getWindspeed();
                 total_cat += h.getCat();
                 total_pres += h.getPressure();
                 total_speed += h.getWindspeed();
@@ -134,8 +134,16 @@ public class HurricaneTester
         double average_cat = total_cat/count;
         double average_pres = total_pres/count;
         double average_speed = total_speed/count;
-
-        //print the data
-        System.out.printf("%25s %d %s %d", "Hurricane", x, "-", y);
-    }
-}
+        System.out.printf("%25s %d %s %d \n", "Hurricane", x, "-", y);
+        System.out.println();
+        System.out.printf("%6s %13s %12s %17s %20s%n", "Year", "Hurricane", "Category", "Pressure (mb)", "Wind Speed (mph)");
+        System.out.println("========================================================================");
+        for(Hurricane h: hurricaneList)
+        {
+            //System.out.println("Processing name: " + h.getName());
+            if (h.getYear() >= x && h.getYear() <= y)
+            {
+                System.out.println(h.toString());
+            }
+        }
+}}
