@@ -1,7 +1,7 @@
 /**
- * Starter code for the Hurricane Tester
- * APCS Team 2020
- *
+ * Prints information about hurricans in a date range
+ * Tristan Darnell
+ * 9/6/23
  */
  
 import java.io.IOException;
@@ -113,6 +113,11 @@ public class HurricaneTester
         double total_speed = 0;
 
         int count = 0;
+        int cat1 = 0;
+        int cat2 = 0;
+        int cat3 = 0;
+        int cat4 = 0;
+        int cat5 = 0;
 
         for(Hurricane h: hurricaneList)
         {
@@ -124,6 +129,11 @@ public class HurricaneTester
                 if (h.getPressure() > max_pres) max_pres = h.getPressure();
                 if (h.getWindspeed() < min_speed) min_speed = h.getWindspeed();
                 if (h.getWindspeed() > max_speed) max_speed = h.getWindspeed();
+                if (h.getCat() == 1) cat1++;
+                if (h.getCat() == 2) cat2++;
+                if (h.getCat() == 3) cat3++;
+                if (h.getCat() == 4) cat4++;
+                if (h.getCat() == 5) cat5++;
                 total_cat += h.getCat();
                 total_pres += h.getPressure();
                 total_speed += h.getWindspeed();
@@ -131,19 +141,39 @@ public class HurricaneTester
             }
         }
 
+        // calc average
         double average_cat = total_cat/count;
         double average_pres = total_pres/count;
         double average_speed = total_speed/count;
+
+        // Print header of data
         System.out.printf("%25s %d %s %d \n", "Hurricane", x, "-", y);
         System.out.println();
         System.out.printf("%6s %13s %12s %17s %20s%n", "Year", "Hurricane", "Category", "Pressure (mb)", "Wind Speed (mph)");
         System.out.println("========================================================================");
+
+        // Print data of each hurrican
         for(Hurricane h: hurricaneList)
         {
-            //System.out.println("Processing name: " + h.getName());
             if (h.getYear() >= x && h.getYear() <= y)
             {
                 System.out.println(h.toString());
             }
         }
+        // Print average max min
+        System.out.println("========================================================================");
+        System.out.printf("%15s %16.2f %13.2f %16.2f", "Average:", average_cat, average_pres, average_speed);
+        System.out.println();
+        System.out.printf("%15s %13d %13d %19.2f", "Minimum:", min_cat, min_pres, min_speed);
+        System.out.println();
+        System.out.printf("%15s %13d %13d %19.2f", "Maximum:", max_cat, max_pres, max_speed);
+        System.out.println("\n");
+
+        // Summary of cats
+        System.out.println("Summary of Categories:");
+        System.out.printf("%9s %2d%n", "Cat 1:", cat1);
+        System.out.printf("%9s %2d%n", "Cat 2:", cat2);
+        System.out.printf("%9s %2d%n", "Cat 3:", cat3);
+        System.out.printf("%9s %2d%n", "Cat 4:", cat4);
+        System.out.printf("%9s %2d%n", "Cat 5:", cat5);
 }}
