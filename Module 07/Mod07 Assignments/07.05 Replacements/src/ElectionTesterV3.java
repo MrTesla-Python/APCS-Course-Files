@@ -8,13 +8,13 @@
 public class ElectionTesterV3 {
     public static void main(String[] args)
     {
-        Candidate[] people = new Candidate[5];
+        Candidate2[] people = new Candidate2[5];
         
-        people[0] = new Candidate("Tony Stark", 3691);
-        people[1] = new Candidate("Alex Ham", 2691);
-        people[2] = new Candidate("Aaron Burr", 1962);
-        people[3] = new Candidate("James M", 1491);
-        people[4] = new Candidate("John Adams", 1968);
+        people[0] = new Candidate2("Tony Stark", 3691);
+        people[1] = new Candidate2("Alex Ham", 2691);
+        people[2] = new Candidate2("Aaron Burr", 1962);
+        people[3] = new Candidate2("James M", 1491);
+        people[4] = new Candidate2("John Adams", 1968);
 
 
         printCandidatesResults(people);
@@ -43,7 +43,7 @@ public class ElectionTesterV3 {
         printFullResults(people);
 
     }
-    public static void printCandidatesResults(Candidate[] people)
+    public static void printCandidatesResults(Candidate2[] people)
     {
         System.out.println(" Raw Election Data:");
         System.out.println();
@@ -54,7 +54,7 @@ public class ElectionTesterV3 {
         }
     }
 
-    public static int totalVotes(Candidate[] people)
+    public static int totalVotes(Candidate2[] people)
     {
         int total = 0;
         for (int i = 0; i < people.length; i++)
@@ -64,7 +64,7 @@ public class ElectionTesterV3 {
         return total;
     }
 
-    public static void printFullResults(Candidate[] people)
+    public static void printFullResults(Candidate2[] people)
     {
         System.out.println();
         System.out.println();
@@ -82,7 +82,7 @@ public class ElectionTesterV3 {
         System.out.printf("The total number of votes is: %.0f%n", total);
     }
 
-    public static void changePerson(Candidate[] person, String find, String replace)
+    public static void changePerson(Candidate2[] person, String find, String replace)
     {
         for (int i = 0; i < person.length; i++)
         {
@@ -90,7 +90,7 @@ public class ElectionTesterV3 {
         }
     }
 
-    public static void changeVotes(Candidate[] person, String find, int replace)
+    public static void changeVotes(Candidate2[] person, String find, int replace)
     {
         for (int i = 0; i < person.length; i++)
         {
@@ -98,7 +98,7 @@ public class ElectionTesterV3 {
         }
     }
 
-    public static void changeboth(Candidate[] person, int replace, String find1, String replace1)
+    public static void changeboth(Candidate2[] person, int replace, String find1, String replace1)
     {
         for (int i = 0; i < person.length; i++)
         {

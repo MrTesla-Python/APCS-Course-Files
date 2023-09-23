@@ -1,0 +1,11 @@
+PROJECT TITLE: 07.08 Challenge / GradeTeser.java, Student.java
+PURPOSE OF PROJECT: The Candidate class defines a Candidate by its name and number of votes.
+The ElectionTesterV7 class demonstrations inserting and deleting elements within an array, 
+and the ElectionTesterV8 class demonstrations inserting and deleting within an array list.
+VERSION or DATE: 09/18/23
+AUTHORS: Tristan Darnell
+******************************************************* P M R **********************************************************
+<+s>: This program was pretty tedious with all the methods
+<-s>: Just mainly time consuming
+************************************************************************************************************************
+In the future: Getting better at creating functions

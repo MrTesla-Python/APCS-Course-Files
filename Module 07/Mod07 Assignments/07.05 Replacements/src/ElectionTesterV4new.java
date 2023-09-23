@@ -9,20 +9,20 @@ import java.util.*;
 public class ElectionTesterV4new {
     public static void main(String[] args)
     {
-        List<Candidate> people = new ArrayList<Candidate>();
+        List<Candidate2> people = new ArrayList<Candidate2>();
         
-        people.add(new Candidate("Tony Stark", 3691));
-        people.add(new Candidate("Alex Ham", 2691));
-        people.add(new Candidate("Aaron Burr", 1962));
-        people.add(new Candidate("James M", 1491));
-        people.add(new Candidate("John Adams", 1968));
+        people.add(new Candidate2("Tony Stark", 3691));
+        people.add(new Candidate2("Alex Ham", 2691));
+        people.add(new Candidate2("Aaron Burr", 1962));
+        people.add(new Candidate2("James M", 1491));
+        people.add(new Candidate2("John Adams", 1968));
 
 
         printCandidatesResults(people);
         totalVotes(people);
         printFullResults(people);
     }
-    public static void printCandidatesResults(List<Candidate> people)
+    public static void printCandidatesResults(List<Candidate2> people)
     {
         System.out.println(" Raw Election Data:");
         System.out.println();
@@ -33,7 +33,7 @@ public class ElectionTesterV4new {
         }
     }
 
-    public static int totalVotes(List<Candidate> people)
+    public static int totalVotes(List<Candidate2> people)
     {
         int total = 0;
         for (int index = 0; index < people.size(); index++)
@@ -43,7 +43,7 @@ public class ElectionTesterV4new {
         return total;
     }
 
-    public static void printFullResults(List<Candidate> people)
+    public static void printFullResults(List<Candidate2> people)
     {
         System.out.println();
         System.out.println();

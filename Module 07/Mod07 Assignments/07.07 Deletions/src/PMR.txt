@@ -1,0 +1,12 @@
+PROJECT TITLE: 07.07 Deletions / Candidate.java, ElectionTesterV7.java, ElectionTesterV8.java
+PURPOSE OF PROJECT: The Candidate class defines a Candidate by its name and number of votes.
+The ElectionTesterV7 class demonstrations inserting and deleting elements within an array, 
+and the ElectionTesterV8 class demonstrations inserting and deleting within an array list.
+VERSION or DATE: 09/03/23
+AUTHORS: Tristan Darnell
+******************************************************* P M R **********************************************************
+<+s>: This program was simple
+<-s>: Wasn't that bad creating the neccessary functions, was a little annoying with array
+with how much easier arrayList is.
+************************************************************************************************************************
+In the future: Getting better at creating functions

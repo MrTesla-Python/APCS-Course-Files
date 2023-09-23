@@ -9,13 +9,13 @@ import java.util.*;
 public class ElectionTesterV8 {
     public static void main(String[] args)
     {
-        List<Candidate> people = new ArrayList<Candidate>();
+        List<Candidate2> people = new ArrayList<Candidate2>();
         
-        people.add(new Candidate("Tony Stark", 3691));
-        people.add(new Candidate("Alex Ham", 2691));
-        people.add(new Candidate("Aaron Burr", 1962));
-        people.add(new Candidate("James M", 1491));
-        people.add(new Candidate("John Adams", 1968));
+        people.add(new Candidate2("Tony Stark", 3691));
+        people.add(new Candidate2("Alex Ham", 2691));
+        people.add(new Candidate2("Aaron Burr", 1962));
+        people.add(new Candidate2("James M", 1491));
+        people.add(new Candidate2("John Adams", 1968));
 
 
         printCandidatesResults(people);
@@ -32,7 +32,7 @@ public class ElectionTesterV8 {
         System.out.print("<<<<Before James M, add Clint B, 426 votes>>");
         printFullResults(people);
     }
-    public static void printCandidatesResults(List<Candidate> people)
+    public static void printCandidatesResults(List<Candidate2> people)
     {
         System.out.println(" Raw Election Data:");
         System.out.println();
@@ -43,7 +43,7 @@ public class ElectionTesterV8 {
         }
     }
 
-    public static int totalVotes(List<Candidate> people)
+    public static int totalVotes(List<Candidate2> people)
     {
         int total = 0;
         for (int index = 0; index < people.size(); index++)
@@ -54,7 +54,7 @@ public class ElectionTesterV8 {
         return total;
     }
 
-    public static void printFullResults(List<Candidate> people)
+    public static void printFullResults(List<Candidate2> people)
     {
         System.out.println();
         System.out.println();
@@ -72,13 +72,13 @@ public class ElectionTesterV8 {
         System.out.println();
         System.out.printf("The total number of votes is: %.0f%n", total);
     }
-    public static void insertPerson1(List<Candidate> people, int location, String addN, int addS)
+    public static void insertPerson1(List<Candidate2> people, int location, String addN, int addS)
     {
         // insert item into ArrayList
-        people.add(location, new Candidate(addN, addS));
+        people.add(location, new Candidate2(addN, addS));
     }
 
-    public static void insertPerson2(List<Candidate> people, String find, String addN, int addS)
+    public static void insertPerson2(List<Candidate2> people, String find, String addN, int addS)
     {
         int location = 0;
 
@@ -88,15 +88,15 @@ public class ElectionTesterV8 {
                 location = index;
 
         // insert item into ArrayList
-        people.add(location, new Candidate(addN, addS));
+        people.add(location, new Candidate2(addN, addS));
     }
 
-    public static void delete1(List<Candidate> people, int location)
+    public static void delete1(List<Candidate2> people, int location)
     {
         people.remove(location);
     }
 
-    public static void delete2(List<Candidate> people, String find)
+    public static void delete2(List<Candidate2> people, String find)
     {
         int location = 0;
         int index;

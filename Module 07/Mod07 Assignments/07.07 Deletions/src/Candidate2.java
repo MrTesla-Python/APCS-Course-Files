@@ -5,14 +5,14 @@
  * @version < 09/13/23 >
  */
 
- public class Candidate
+ public class Candidate2
  {
      // instance variables
      private int numVotes;
      private String name;
  
      // Constructor for objects of class Candidate
-     public Candidate(String name, int numVotes)
+     public Candidate2(String name, int numVotes)
      {
          // initialize instance variables
          this.name = name;
