@@ -1,0 +1,10 @@
+PROJECT TITLE: 07.09 Insertion / Movie.java, TestMovie.java
+PURPOSE OF PROJECT: The Movie class creates a movie object
+and the test movie class sorts that object with insertion sort.
+VERSION or DATE: 10/02/23
+AUTHORS: Tristan Darnell
+******************************************************* P M R **********************************************************
+<+s>: This program was pretty simple
+<-s>: Just mainly time consuming, creating basically all the same methods just little things changed.
+************************************************************************************************************************
+In the future: Getting better at insertion sort.

@@ -4,7 +4,7 @@
  * @author Tristan Darnell
  * @version 09/18/23
  */
-public class Student 
+public class Student2 
 {
     private String student;
     private int Q1;
@@ -13,7 +13,7 @@ public class Student
     private int Q4;
     private int Q5;
 
-    public Student(String student, int Q1, int Q2, int Q3, int Q4, int Q5)
+    public Student2(String student, int Q1, int Q2, int Q3, int Q4, int Q5)
     {
         this.student = student;
         this.Q1 = Q1;
