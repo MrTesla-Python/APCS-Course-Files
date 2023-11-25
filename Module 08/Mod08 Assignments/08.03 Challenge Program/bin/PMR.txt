@@ -1,0 +1,9 @@
+PROJECT TITLE: 08.03 Challenge / Contacts.java, TestContacts.java
+PURPOSE OF PROJECT: To utlize a contacts object and use various search methods on it
+VERSION or DATE: 11/19/23
+AUTHORS: Tristan Darnell
+******************************************************* P M R **********************************************************
+<+s>: This program was simple
+<-s>: Overall it was fun and not that bad except a little tedious to do.
+************************************************************************************************************************
+In the future: Getting faster at implementing search methods

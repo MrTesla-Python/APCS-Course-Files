@@ -1,0 +1,9 @@
+PROJECT TITLE: 08.02 Binary Search / Music2.java, TestMusic2.java
+PURPOSE OF PROJECT: To utlize a music object and then use binary search 
+VERSION or DATE: 11/19/23
+AUTHORS: Tristan Darnell
+******************************************************* P M R **********************************************************
+<+s>: This program was simple
+<-s>: Binary Search isn't that bad
+************************************************************************************************************************
+In the future: Getting better at binary search

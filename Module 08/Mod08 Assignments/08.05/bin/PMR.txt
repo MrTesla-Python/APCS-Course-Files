@@ -1,0 +1,9 @@
+PROJECT TITLE: 08.05 2D arrays / TestCatapault.java/CatapaultStrawberries.java
+PURPOSE OF PROJECT: To utlize a catapault object and launch using various angles and speeds
+VERSION or DATE: 11/25/23
+AUTHORS: Tristan Darnell
+******************************************************* P M R **********************************************************
+<+s>: This program was relatively simple
+<-s>: Overall it was fun, but OOP still a little hard.
+************************************************************************************************************************
+In the future: Getting better at OOP

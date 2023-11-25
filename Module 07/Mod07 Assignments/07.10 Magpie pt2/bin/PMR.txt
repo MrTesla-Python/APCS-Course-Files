@@ -1,0 +1,9 @@
+PROJECT TITLE: 07.10 Magpie4.java / MagpieRunner4.java
+PURPOSE OF PROJECT: A program to carry on conversations with a human user.
+VERSION or DATE: 11/6/23
+AUTHORS: Tristan Darnell
+******************************************************* P M R **********************************************************
+<+s>: This program was simple
+<-s>: It wasn't that bad creating the neccessary functions and was actually fun, as you gotta see it respond.
+************************************************************************************************************************
+In the future: Just getting better at coding "cleaner code"
