@@ -1,0 +1,9 @@
+PROJECT TITLE: 08.07 Picture / Picture, PictureTester
+PURPOSE OF PROJECT: To alter images
+VERSION or DATE: 12/23/23
+AUTHORS: Tristan Darnell
+******************************************************* P M R **********************************************************
+<+s>: This program was pretty simple
+<-s>: Overall it was fun and not that bad except a little tedious to do and took some thinking.
+************************************************************************************************************************
+In the future: Getting better at thinking of how to manipulate images

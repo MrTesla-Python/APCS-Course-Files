@@ -1,0 +1,241 @@
+/**
+ * Sorts store objects
+ *
+ * @author Tristan Darnell
+ * @version 03/04/24
+ */
+public class TestStore {
+    public static void main(String[] args) {
+        Store[] inventory = {
+            new Store("Chewbacca Mask", 1281, 19.99, 24),
+            new Store("Harry Potter Wand", 2485, 15.49, 36),
+            new Store("Rubik's Cube", 3698, 11.99, 48),
+            new Store("LED Desk Lamp", 4721, 29.99, 12),
+            new Store("Wireless Earbuds", 5947, 49.99, 20),
+            new Store("Reusable Water Bottle", 6752, 12.99, 60),
+            new Store("Laptop Backpack", 7314, 39.99, 18),
+            new Store("Graphic T-Shirt", 8256, 17.99, 30),
+            new Store("Desk Organizer Set", 9138, 24.99, 15),
+            new Store("Yoga Mat", 1085, 21.99, 25)
+        };
+        
+        printInventory(inventory);
+
+        mergeSortProductNumber(inventory, 0, inventory.length-1);
+        System.out.println("\n     <<<< After Sorting >>>>");
+        System.out.println("<<<< by product number in ascending order >>>>\n");
+        printInventory(inventory);
+
+        mergeSortProductName(inventory, 0, inventory.length-1);
+        System.out.println("\n     <<<< After Sorting >>>>");
+        System.out.println("<<<< by product name in ascending order >>>>\n");
+        printInventory(inventory);
+
+        mergeSortProductPrice(inventory, 0, inventory.length-1);
+        System.out.println("\n     <<<< After Sorting >>>>");
+        System.out.println("<<<< by product price in ascending order >>>>\n");
+        printInventory(inventory);
+
+        mergeSortProductQuantity(inventory, 0, inventory.length-1);
+        System.out.println("\n     <<<< After Sorting >>>>");
+        System.out.println("<<<< by product quantity in ascending order >>>>\n");
+        printInventory(inventory);
+
+    }
+
+    private static void printInventory(Store[] inventory) {
+        for (Store item : inventory) {
+            System.out.println(item);
+        }
+    }
+
+    public static void mergeSortProductNumber(Store[] a, int low, int high)
+     {
+         if( low == high )
+             return;
+ 
+         int mid = ( low + high ) / 2;
+ 
+         mergeSortProductNumber( a, low, mid );       // recursive call
+         mergeSortProductNumber( a, mid + 1, high);   // recursive call     
+         mergeProductNumber( a, low, mid, high);
+     }
+
+    public static void mergeProductNumber( Store[] a, int low, int mid, int high )
+     {
+         Store[] temp = new Store[ high - low + 1 ];
+ 
+         int i = low, j = mid + 1, n = 0;
+ 
+         while( i <= mid || j <= high )
+         {
+             if( i > mid )
+             {
+                 temp[ n ] = a[ j ];
+                 j++;
+             }
+             else if( j > high )
+             {
+                 temp[ n ] = a[ i ];
+                 i++;
+             }
+             else if( a[ i ].getProductNumber() < a[ j ].getProductNumber() )
+             {
+                 temp[ n ] = a[ i ];
+                 i++;
+             }
+             else
+             {
+                 temp[ n ] = a[ j ];
+                 j++;
+             }
+             n++;
+         }
+ 
+         for( int k = low ; k <= high ; k++ )
+             a[ k ] = temp[ k - low ];
+     }
+
+     public static void mergeSortProductName(Store[] a, int low, int high)
+     {
+         if( low == high )
+             return;
+ 
+         int mid = ( low + high ) / 2;
+ 
+         mergeSortProductName( a, low, mid );       // recursive call
+         mergeSortProductName( a, mid + 1, high);   // recursive call
+        
+         mergeProductName( a, low, mid, high);
+     }
+
+    public static void mergeProductName( Store[] a, int low, int mid, int high )
+     {
+         Store[] temp = new Store[ high - low + 1 ];
+ 
+         int i = low, j = mid + 1, n = 0;
+ 
+         while( i <= mid || j <= high )
+         {
+             if( i > mid )
+             {
+                 temp[ n ] = a[ j ];
+                 j++;
+             }
+             else if( j > high )
+             {
+                 temp[ n ] = a[ i ];
+                 i++;
+             }
+             else if( a[ i ].getItemName().compareTo(a[ j ].getItemName()) < 0 )
+             {
+                 temp[ n ] = a[ i ];
+                 i++;
+             }
+             else
+             {
+                 temp[ n ] = a[ j ];
+                 j++;
+             }
+             n++;
+         }
+ 
+         for( int k = low ; k <= high ; k++ )
+             a[ k ] = temp[ k - low ];
+     }
+
+     public static void mergeSortProductPrice(Store[] a, int low, int high)
+     {
+         if( low == high )
+             return;
+ 
+         int mid = ( low + high ) / 2;
+ 
+         mergeSortProductPrice( a, low, mid );       // recursive call
+         mergeSortProductPrice( a, mid + 1, high);   // recursive call     
+         mergeProductPrice( a, low, mid, high);
+     }
+
+    public static void mergeProductPrice( Store[] a, int low, int mid, int high )
+     {
+         Store[] temp = new Store[ high - low + 1 ];
+ 
+         int i = low, j = mid + 1, n = 0;
+ 
+         while( i <= mid || j <= high )
+         {
+             if( i > mid )
+             {
+                 temp[ n ] = a[ j ];
+                 j++;
+             }
+             else if( j > high )
+             {
+                 temp[ n ] = a[ i ];
+                 i++;
+             }
+             else if( a[ i ].getPrice() < a[ j ].getPrice() )
+             {
+                 temp[ n ] = a[ i ];
+                 i++;
+             }
+             else
+             {
+                 temp[ n ] = a[ j ];
+                 j++;
+             }
+             n++;
+         }
+ 
+         for( int k = low ; k <= high ; k++ )
+             a[ k ] = temp[ k - low ];
+     }
+
+    public static void mergeSortProductQuantity(Store[] a, int low, int high)
+     {
+         if( low == high )
+             return;
+ 
+         int mid = ( low + high ) / 2;
+ 
+         mergeSortProductQuantity( a, low, mid );       // recursive call
+         mergeSortProductQuantity( a, mid + 1, high);   // recursive call     
+         mergeProductQuantity( a, low, mid, high);
+     }
+
+    public static void mergeProductQuantity( Store[] a, int low, int mid, int high )
+     {
+         Store[] temp = new Store[ high - low + 1 ];
+ 
+         int i = low, j = mid + 1, n = 0;
+ 
+         while( i <= mid || j <= high )
+         {
+             if( i > mid )
+             {
+                 temp[ n ] = a[ j ];
+                 j++;
+             }
+             else if( j > high )
+             {
+                 temp[ n ] = a[ i ];
+                 i++;
+             }
+             else if( a[ i ].getQuantity() < a[ j ].getQuantity() )
+             {
+                 temp[ n ] = a[ i ];
+                 i++;
+             }
+             else
+             {
+                 temp[ n ] = a[ j ];
+                 j++;
+             }
+             n++;
+         }
+ 
+         for( int k = low ; k <= high ; k++ )
+             a[ k ] = temp[ k - low ];
+     }
+     
+}

@@ -1,0 +1,9 @@
+PROJECT TITLE: 10.07 Challenge Program
+PURPOSE OF PROJECT: Sorts store objects
+VERSION or DATE: 12/24/24
+AUTHORS: Tristan Darnell
+******************************************************* P M R **********************************************************
+<+s>: This program was pretty hard
+<-s>: Merge sort is not easy
+************************************************************************************************************************
+In the future: Getting better at merge sort

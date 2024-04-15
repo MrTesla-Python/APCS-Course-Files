@@ -1,0 +1,9 @@
+PROJECT TITLE: 09.02 Hierarchies 
+PURPOSE OF PROJECT: To create various subclasses
+VERSION or DATE: 12/24/24
+AUTHORS: Tristan Darnell
+******************************************************* P M R **********************************************************
+<+s>: This program was simple
+<-s>: Overall it was fun to come up with different subclasses
+************************************************************************************************************************
+In the future: Getting faster at creating new subclasses

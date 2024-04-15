@@ -1,0 +1,9 @@
+PROJECT TITLE: 08.08 DBA
+PURPOSE OF PROJECT: Create a method to manipulate 1d arrays into a 2d array
+VERSION or DATE: 12/24/24
+AUTHORS: Tristan Darnell
+******************************************************* P M R **********************************************************
+<+s>: This program was relatively easy
+<-s>: Manipulating arrays just takes time to think about
+************************************************************************************************************************
+In the future: Getting better at manipulating arrays

@@ -1,0 +1,9 @@
+PROJECT TITLE: 10.05 Fib Bumbers Fibonacci.java
+PURPOSE OF PROJECT: Purpose: To create a recursion program to calc fib numbers
+VERSION or DATE: 02/05/24
+AUTHORS: Tristan Darnell
+******************************************************* P M R **********************************************************
+<+s>: This program was relatively easy
+<-s>: Recursion is not that hard to implement just takes time thinking about base cases
+************************************************************************************************************************
+In the future: Getting better at recursion

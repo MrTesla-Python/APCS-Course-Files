@@ -1,0 +1,9 @@
+PROJECT TITLE: 09.07 Caesar
+PURPOSE OF PROJECT: To create a Caesar shift
+VERSION or DATE: 12/26/24
+AUTHORS: Tristan Darnell
+******************************************************* P M R **********************************************************
+<+s>: This program was not bad
+<-s>: It was a little difficult manipulating the chars.
+************************************************************************************************************************
+In the future: Getting better at converting strings to chars

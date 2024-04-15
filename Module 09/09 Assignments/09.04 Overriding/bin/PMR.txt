@@ -1,0 +1,9 @@
+PROJECT TITLE: 09.04 Overriding
+PURPOSE OF PROJECT: To create various subclasses and do overriding
+VERSION or DATE: 12/25/24
+AUTHORS: Tristan Darnell
+******************************************************* P M R **********************************************************
+<+s>: This program was not bad
+<-s>: Overriding is pretty easy.
+************************************************************************************************************************
+In the future: Getting better at understanding Overriding

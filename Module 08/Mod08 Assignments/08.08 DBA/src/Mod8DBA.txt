@@ -1,0 +1,12 @@
+public static int[][] calcMagicMath(int[] rowH, int[] colH)
+    {
+        int[][] ans = new int[rowH.length][colH.length];
+        for (int i = 0; i < rowH.length; i++)
+        {
+            for (int j = 0; j < colH.length; j++)
+            {
+                ans[i][j] = rowH[i] * colH[j];
+            }
+        }
+        return ans;
+    }
